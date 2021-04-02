@@ -71,6 +71,7 @@ class LinkedList:
         # If we are removing the head
         if index == 0:
             self.head = self.head.next
+            return
         """
         Advantageously we are using python which will take care of 
         Garbage Collection automatically, but if we are using C++,
